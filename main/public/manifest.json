@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "G4C",
+  "name": "Games 4 Cause",
+  "description": "Games 4 Cause - Play to make a difference.",
   "icons": [
     {
       "src": "favicon.ico",
