@@ -13,7 +13,7 @@ const Home: React.FC = () => {
                             className="h-6 w-auto"
                             draggable="false"
                         />
-                        <span className="text-xl font-bold font-dot-gothic-16 sm:inline ml-2 select-none">
+                        <span className="text-xl text-black font-bold font-dot-gothic-16 sm:inline ml-2 select-none">
                             games4cause
                         </span>
                     </div>
