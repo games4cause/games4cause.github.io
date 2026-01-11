@@ -2,6 +2,7 @@ import "./App.css";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import { ThemeProvider } from "./components/ThemeProvider";
+import Contribute from "./pages/Contribute";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
 
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/contribute" element={<Contribute />} />
           </Routes>
         </div>
       </ThemeProvider>
