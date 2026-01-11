@@ -11,13 +11,10 @@ function App() {
       <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
         <div className="flex flex-col min-h-screen min-h-[100dvh]">
           <Navbar />
-          <main className="flex-1 flex items-center justify-center">
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/contribute" element={<Contribute />} />
-            </Routes>
-          </main>
-
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/contribute" element={<Contribute />} />
+          </Routes>
         </div>
       </ThemeProvider>
     </BrowserRouter>
