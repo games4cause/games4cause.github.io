@@ -7,14 +7,15 @@ import {
 } from "@/components/ui/navigation-menu";
 import { Button } from "@/components/ui/button";
 import { HeartHandshake } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Navbar: React.FC = () => {
     return (
         <header className="sticky top-0 z-50 bg-background border-b border-border">
             <div className="container mx-auto h-16 flex items-center justify-between px-4">
                 {/* Brand */}
-                <a
-                    href="/"
+                <Link
+                    to="/"
                     className="flex items-center gap-2 select-none focus:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded"
                 >
                     <img
@@ -26,7 +27,7 @@ const Navbar: React.FC = () => {
                     <span className="text-lg sm:text-xl font-bold font-dot-gothic-16">
                         games4cause
                     </span>
-                </a>
+                </Link>
 
                 {/* Navigation */}
                 <NavigationMenu>
@@ -39,9 +40,9 @@ const Navbar: React.FC = () => {
                                 asChild
                                 aria-label="Contribute"
                             >
-                                <a href="/contribute">
-                                    <HeartHandshake className="h-6 w-6" />
-                                </a>
+                                <Link to="/contribute">
+                                    <HeartHandshake className="h-8 w-8" />
+                                </Link>
                             </Button>
                         </NavigationMenuItem>
                     </NavigationMenuList>
