@@ -41,17 +41,6 @@ const Home: React.FC = () => {
                     {/* Desktop Navigation */}
                     <NavigationMenu className="hidden md:flex">
                         <NavigationMenuList className="gap-2">
-                            <NavigationMenuItem>
-                                <Button variant="ghost" asChild>
-                                    <a href="/projects">Projects</a>
-                                </Button>
-                            </NavigationMenuItem>
-
-                            <NavigationMenuItem>
-                                <Button variant="ghost" asChild>
-                                    <a href="/community">Community</a>
-                                </Button>
-                            </NavigationMenuItem>
 
                             <NavigationMenuItem>
                                 <Button variant="ghost" asChild>
